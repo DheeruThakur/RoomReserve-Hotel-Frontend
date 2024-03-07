@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL : "http://localhost:5050"
+    baseURL : "http://roomreservehotel-env.eba-9h9cz2yn.eu-north-1.elasticbeanstalk.com/"
 })
 
 export const getHeader = (contentType) => {
